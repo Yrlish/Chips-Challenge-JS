@@ -130,7 +130,7 @@ var Game = {
       if(Game.respawnCounter != null) {
        Game.bottom.innerHTML = "(re)loading level in " + Game.respawnCounter + " seconds...<br><br>Game created by <a href=\"http://ylar.se\" target=\"_blank\">Dennis Yrlish</a> (@Yrlish)";
       } else {
-        Game.bottom.innerHTML = "Game created by <a href=\"http://ylar.se\" target=\"_blank\">Dennis Yrlish</a> (@Yrlish)";
+        Game.bottom.innerHTML = "Game created by <a href=\"http://ylar.se\" target=\"_blank\">Dennis Yrlish</a> (@Yrlish)<br>The game only has two levels.";
       }
 
     }
